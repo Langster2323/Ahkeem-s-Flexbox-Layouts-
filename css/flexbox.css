@@ -12,4 +12,5 @@ one line. One flex line.*/
   /*flex-direction is only applicable with the flex container*/
   flex-direction: row;
   flex-wrap:wrap;
+  height:280px;
 }
