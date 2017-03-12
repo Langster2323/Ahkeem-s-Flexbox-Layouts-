@@ -13,4 +13,6 @@ one line. One flex line.*/
   flex-direction: row;
   flex-wrap:wrap;
   height:280px;
+  /*Comes in handy when creating a navigation menu*/
+  justify-content: space-around;
 }
