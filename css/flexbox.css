@@ -5,6 +5,8 @@
 /* By setting display to have the value flex, I've established
  a flex formatting context. Every item div inside the container
 div automatically becomes a flex item.*/
+/*A Flex container tries to fit everything on
+one line. One flex line.*/
 .container {
   display: flex;
   /*flex-direction is only applicable with the flex container*/
