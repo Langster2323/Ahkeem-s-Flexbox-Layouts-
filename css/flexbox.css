@@ -11,5 +11,5 @@ one line. One flex line.*/
   display: flex;
   /*flex-direction is only applicable with the flex container*/
   flex-direction: row;
-  lex-wrap:wrap;
+  flex-wrap:wrap;
 }
