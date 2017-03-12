@@ -7,5 +7,6 @@
 div automatically becomes a flex item.*/
 .container {
   display: flex;
-  height:300px;
+  /*flex-direction is only applicable with the flex container*/
+  flex-direction: column;
 }
