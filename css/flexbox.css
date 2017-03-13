@@ -25,3 +25,8 @@ one line. One flex line.*/
 .item-1 {
   order: -2
 }
+
+/*To have the items expand the entire length*/
+.item {
+  flex-grow:1;
+}
