@@ -18,6 +18,10 @@ one line. One flex line.*/
 }
 
 /*The default order of all flex items is zero*/
-.item-6 {
+.item-5 {
   order: -1;
+}
+
+.item-1 {
+  order: -2
 }
