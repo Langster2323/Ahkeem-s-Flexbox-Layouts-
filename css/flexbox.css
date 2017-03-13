@@ -16,3 +16,8 @@ one line. One flex line.*/
   /*Comes in handy when creating a navigation menu*/
   justify-content: space-around;
 }
+
+/*The default order of all flex items is zero*/
+.item-6 {
+  order: -1;
+}
