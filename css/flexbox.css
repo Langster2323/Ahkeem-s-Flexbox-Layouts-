@@ -9,24 +9,20 @@ div automatically becomes a flex item.*/
 one line. One flex line.*/
 .container {
   display: flex;
-  /*flex-direction is only applicable with the flex container*/
-  flex-direction: row;
   flex-wrap:wrap;
-  height:280px;
   /*Comes in handy when creating a navigation menu*/
-  justify-content: space-around;
+  /*justify-content: space-around;*/
 }
 
-/*The default order of all flex items is zero*/
-.item-5 {
-  order: -1;
-}
-
-.item-1 {
-  order: -2
-}
-
-/*To have the items expand the entire length*/
 .item {
-  flex-grow:1;
+  /*This property tries it's best to equally distribute the space*/
+/*  flex-grow:1;*/
+  /*The items in the container have evenly distributed space and flexible widths
+  while the items are 200px and wider they'll stay on the same line
+  but once the px drops below 200px. The browser starts redistributing the space inside
+  the flex container.*/
+/*  flex-basis: 200px;*/
+
+  /*flex is the short hand for flex-grow, flex-basis and flex-shrink*/
+  flex: 1 200px;
 }
