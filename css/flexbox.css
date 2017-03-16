@@ -25,7 +25,12 @@ one line. One flex line.*/
 /*  flex-basis: 200px;*/
 
   /*flex is the short hand for flex-grow, flex-basis and flex-shrink*/
-  flex: 1 200px;
+  /*flex: 1 200px;*/
+}
+
+/*Perfectly centered content horizantally and vertically*/
+.item {
+  margin: auto;
 }
 
 .item-1 {
