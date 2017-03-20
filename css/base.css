@@ -18,7 +18,7 @@ ul {
 }
 p {
 	font-size: .95em;
-	margin-bottom: 1.8em;
+	margin: 0 0 1em 0;
 }
 h2,
 h3,
@@ -27,7 +27,7 @@ a {
 }
 h2,
 h3 {
-	margin-top: 0;
+	margin: 0 0 .8em 0;
 }
 a {
 	text-decoration: none;
@@ -81,8 +81,10 @@ img {
 	margin-bottom: 48px;
 }
 .col {
-	padding-right: 1em;
-	padding-left: 1em;
+	padding: 1em;
+	background: #edf4f7;
+	border-radius: .35em;
+	margin: 0 .5em .8em;
 }
 .main-footer {
 	background: #d9e4ea;
@@ -100,6 +102,13 @@ img {
 }
 .feat-img {
 	border-radius: 5px;
+}
+.button {
+	color: #fff;
+	text-align: center;
+	padding: .625em 1.25em;
+	background: #3acec2;
+	border-radius: .35em;
 }
 
 /* =================================
