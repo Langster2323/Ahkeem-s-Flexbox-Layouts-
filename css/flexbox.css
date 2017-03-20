@@ -16,7 +16,15 @@
   }
 
   .col {
-    flex: 1;
+    flex: 1 50%;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .secondary {
+    order: -1;
   }
 
 
@@ -30,7 +38,7 @@
   }
 
   .primary {
-    flex: 2;
+    flex: 1.4;
   }
 
 }
