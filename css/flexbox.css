@@ -17,15 +17,13 @@
   }
 
   .col {
-    flex: 1 50%;
+    flex: 1;
+    flex-direction: column;
   }
 
-  .row {
-    flex-wrap: wrap;
-  }
-
-  .secondary {
-    order: -1;
+  .button {
+    margin-top: auto;
+    align-self: flex-start;
   }
 
 
@@ -38,8 +36,5 @@
     justify-content: space-between;
   }
 
-  .primary {
-    flex: 1.4;
-  }
 
 }
